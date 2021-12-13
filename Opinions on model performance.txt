@@ -1,0 +1,8 @@
+When comparing the results of the models, a common thread I notice is that the models with 
+smaller word embeddings struggle with finding the correct guess-word. Those with 50 having
+approximately found the wrong synomims closest to the question word by a range of 20 to 30, 
+compared to those with 300 finding the synonims 10 times or less, thus leading to worst 
+accuracy. I believe it may be caused by the smaller pool of embedded words available, 
+leading to an insufficient level of context needed to find the correct guess-words. So
+the greater the the number of enbedded words, the greate the accuracy to guess the correct
+synomym becomes.
