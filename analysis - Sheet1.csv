@@ -1,0 +1,6 @@
+Model name,Vocabulary size,C,V,Accuracy (C/V)
+word2vec-google-news-300,"3,000,000",70,79,0.886075949
+glove-wiki-gigaword-50,"400,000",58,80,0.725
+glove-twitter-50,"1,193,514",38,78,0.487179487
+glove-wiki-gigaword-300,"400,000",71,80,0.8875
+fasttext-wiki-news-subwords-300,"999,999",74,80,0.925
